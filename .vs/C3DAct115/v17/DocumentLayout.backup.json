@@ -1,166 +1,170 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\",
+  "WorkspaceRootPath": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Data\\Script\\MapPractice.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Script\\MapPractice.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Data\\Script\\MapField.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Script\\MapField.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Data\\Script\\MapDungeon.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Script\\MapDungeon.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\SceneFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\SceneFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyBd.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\EnemyBd.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyAndroid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Data\\Script\\MapField.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Script\\MapField.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\SceneFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\SceneFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Data\\Script\\MapPractice.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Script\\MapPractice.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Data\\Script\\MapDungeon.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Script\\MapDungeon.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyAndroid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\EnemyAndroid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyBd.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyBd.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\EnemyBd.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyAndroid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyAndroid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\EnemyAndroid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\Displace.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Displace.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\Displace.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\EnemyManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EventManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EventManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\EventManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\FbxMesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\FbxMesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\FbxMesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\EnemyManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EffectManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EffectManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\EffectManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EffectBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EffectBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\EffectBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\WeaponManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\WeaponBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponFireBall2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponFireBall2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\WeaponFireBall2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Data\\Script\\MapStage.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Data\\Script\\MapStage.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Script\\MapStage.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponSword.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponSword.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\WeaponSword.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponGun.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponGun.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\WeaponGun.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponGun.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponGun.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\WeaponGun.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponFlamethrower.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponFlamethrower.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\WeaponFlamethrower.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponFireBall.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponFireBall.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\WeaponFireBall.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponSword.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponSword.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\WeaponSword.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\PlayScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\PlayScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\PlayScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EventBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EventBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\EventBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\SRC\\Object3D.CPP||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\SRC\\Object3D.CPP||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:SRC\\Object3D.CPP||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\ShadowControl.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\ShadowControl.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\ShadowControl.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\Collision.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Collision.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\Collision.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\EnemyBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\MapManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\MapManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\MapManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\MapManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\MapManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\MapManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\WeaponManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\EnemyBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\ResultScore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\ResultScore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\ResultScore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EffectManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EffectManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\EffectManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyGolem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyGolem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\EnemyGolem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -170,7 +174,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 171,
-          "SelectedChildIndex": 24,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -190,11 +194,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
+              "Title": "Camera.h",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Camera.h",
+              "RelativeDocumentMoniker": "Src\\Camera.h",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Camera.h",
+              "RelativeToolTip": "Src\\Camera.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T02:50:52.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Camera.cpp",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Camera.cpp",
+              "RelativeDocumentMoniker": "Src\\Camera.cpp",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Camera.cpp",
+              "RelativeToolTip": "Src\\Camera.cpp",
+              "ViewState": "AgIAAHYAAAAAAAAAAAASwHwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-06T02:42:40.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "FbxMesh.cpp",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\FbxMesh.cpp",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\FbxMesh.cpp",
               "RelativeDocumentMoniker": "Src\\FbxMesh.cpp",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\FbxMesh.cpp",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\FbxMesh.cpp",
               "RelativeToolTip": "Src\\FbxMesh.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -202,11 +232,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Displace.h",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\Displace.h",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Displace.h",
               "RelativeDocumentMoniker": "Src\\Displace.h",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\Displace.h",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Displace.h",
               "RelativeToolTip": "Src\\Displace.h",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -214,11 +244,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "EnemyAndroid.cpp",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyAndroid.cpp",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyAndroid.cpp",
               "RelativeDocumentMoniker": "Src\\EnemyAndroid.cpp",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyAndroid.cpp",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyAndroid.cpp",
               "RelativeToolTip": "Src\\EnemyAndroid.cpp",
               "ViewState": "AgIAAMMAAAAAAAAAAAAnwM0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -226,11 +256,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "EnemyAndroid.h",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyAndroid.h",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyAndroid.h",
               "RelativeDocumentMoniker": "Src\\EnemyAndroid.h",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyAndroid.h",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyAndroid.h",
               "RelativeToolTip": "Src\\EnemyAndroid.h",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -238,11 +268,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "EventManager.cpp",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EventManager.cpp",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EventManager.cpp",
               "RelativeDocumentMoniker": "Src\\EventManager.cpp",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EventManager.cpp",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EventManager.cpp",
               "RelativeToolTip": "Src\\EventManager.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -250,11 +280,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "WeaponBase.h",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponBase.h",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponBase.h",
               "RelativeDocumentMoniker": "Src\\WeaponBase.h",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponBase.h",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponBase.h",
               "RelativeToolTip": "Src\\WeaponBase.h",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -262,11 +292,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "WeaponFireBall2.cpp",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponFireBall2.cpp",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponFireBall2.cpp",
               "RelativeDocumentMoniker": "Src\\WeaponFireBall2.cpp",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponFireBall2.cpp",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponFireBall2.cpp",
               "RelativeToolTip": "Src\\WeaponFireBall2.cpp",
               "ViewState": "AgIAADQAAAAAAAAAAAAiwCAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -274,23 +304,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Player.cpp",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\Player.cpp",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Player.cpp",
               "RelativeDocumentMoniker": "Src\\Player.cpp",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\Player.cpp",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Player.cpp",
               "RelativeToolTip": "Src\\Player.cpp",
-              "ViewState": "AgIAAEoAAAAAAAAAAAASwFYAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAUwJQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-23T05:20:51.544Z"
+              "WhenOpened": "2025-05-23T05:20:51.544Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "EffectBase.h",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EffectBase.h",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EffectBase.h",
               "RelativeDocumentMoniker": "Src\\EffectBase.h",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EffectBase.h",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EffectBase.h",
               "RelativeToolTip": "Src\\EffectBase.h",
               "ViewState": "AgIAAD0AAAAAAAAAAAAcwHkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -298,11 +329,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "EffectManager.cpp",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EffectManager.cpp",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EffectManager.cpp",
               "RelativeDocumentMoniker": "Src\\EffectManager.cpp",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EffectManager.cpp",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EffectManager.cpp",
               "RelativeToolTip": "Src\\EffectManager.cpp",
               "ViewState": "AgIAAH4AAAAAAAAAAAAIwF4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -310,11 +341,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "EnemyManager.h",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyManager.h",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyManager.h",
               "RelativeDocumentMoniker": "Src\\EnemyManager.h",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyManager.h",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyManager.h",
               "RelativeToolTip": "Src\\EnemyManager.h",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -322,11 +353,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "WeaponManager.cpp",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponManager.cpp",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponManager.cpp",
               "RelativeDocumentMoniker": "Src\\WeaponManager.cpp",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponManager.cpp",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponManager.cpp",
               "RelativeToolTip": "Src\\WeaponManager.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -334,11 +365,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "MapStage.txt",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Data\\Script\\MapStage.txt",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Data\\Script\\MapStage.txt",
               "RelativeDocumentMoniker": "Data\\Script\\MapStage.txt",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Data\\Script\\MapStage.txt",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Data\\Script\\MapStage.txt",
               "RelativeToolTip": "Data\\Script\\MapStage.txt",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
@@ -346,11 +377,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "WeaponFireBall.cpp",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponFireBall.cpp",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponFireBall.cpp",
               "RelativeDocumentMoniker": "Src\\WeaponFireBall.cpp",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponFireBall.cpp",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponFireBall.cpp",
               "RelativeToolTip": "Src\\WeaponFireBall.cpp",
               "ViewState": "AgIAADEAAAAAAAAAAAAiwEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -358,11 +389,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "EnemyManager.cpp",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyManager.cpp",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyManager.cpp",
               "RelativeDocumentMoniker": "Src\\EnemyManager.cpp",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyManager.cpp",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyManager.cpp",
               "RelativeToolTip": "Src\\EnemyManager.cpp",
               "ViewState": "AgIAAIMAAAAAAAAAAAAiwJEAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -370,11 +401,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "WeaponGun.cpp",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponGun.cpp",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponGun.cpp",
               "RelativeDocumentMoniker": "Src\\WeaponGun.cpp",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponGun.cpp",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponGun.cpp",
               "RelativeToolTip": "Src\\WeaponGun.cpp",
               "ViewState": "AgIAAE4AAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -382,11 +413,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "WeaponSword.cpp",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponSword.cpp",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponSword.cpp",
               "RelativeDocumentMoniker": "Src\\WeaponSword.cpp",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponSword.cpp",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponSword.cpp",
               "RelativeToolTip": "Src\\WeaponSword.cpp",
               "ViewState": "AgIAAEUAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -394,62 +425,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "SceneFactory.cpp",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\SceneFactory.cpp",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\SceneFactory.cpp",
               "RelativeDocumentMoniker": "Src\\SceneFactory.cpp",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\SceneFactory.cpp",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\SceneFactory.cpp",
               "RelativeToolTip": "Src\\SceneFactory.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-30T09:58:14.436Z"
+              "WhenOpened": "2025-05-30T09:58:14.436Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MapField.txt",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Data\\Script\\MapField.txt",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Data\\Script\\MapField.txt",
               "RelativeDocumentMoniker": "Data\\Script\\MapField.txt",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Data\\Script\\MapField.txt",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Data\\Script\\MapField.txt",
               "RelativeToolTip": "Data\\Script\\MapField.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-05-25T06:18:54.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "MapDungeon.txt",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Data\\Script\\MapDungeon.txt",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Data\\Script\\MapDungeon.txt",
               "RelativeDocumentMoniker": "Data\\Script\\MapDungeon.txt",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Data\\Script\\MapDungeon.txt",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Data\\Script\\MapDungeon.txt",
               "RelativeToolTip": "Data\\Script\\MapDungeon.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-25T06:19:34.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T06:19:34.156Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "MapPractice.txt",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Data\\Script\\MapPractice.txt",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Data\\Script\\MapPractice.txt",
               "RelativeDocumentMoniker": "Data\\Script\\MapPractice.txt",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Data\\Script\\MapPractice.txt",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Data\\Script\\MapPractice.txt",
               "RelativeToolTip": "Data\\Script\\MapPractice.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-05-25T06:34:30.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "WeaponGun.h",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponGun.h",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponGun.h",
               "RelativeDocumentMoniker": "Src\\WeaponGun.h",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponGun.h",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponGun.h",
               "RelativeToolTip": "Src\\WeaponGun.h",
               "ViewState": "AgIAABgAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -457,11 +488,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "WeaponFlamethrower.cpp",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponFlamethrower.cpp",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponFlamethrower.cpp",
               "RelativeDocumentMoniker": "Src\\WeaponFlamethrower.cpp",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponFlamethrower.cpp",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponFlamethrower.cpp",
               "RelativeToolTip": "Src\\WeaponFlamethrower.cpp",
               "ViewState": "AgIAAEsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -469,11 +500,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "WeaponSword.h",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponSword.h",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponSword.h",
               "RelativeDocumentMoniker": "Src\\WeaponSword.h",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponSword.h",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponSword.h",
               "RelativeToolTip": "Src\\WeaponSword.h",
               "ViewState": "AgIAABAAAAAAAAAAAAAAACUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -481,11 +512,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "EventBase.cpp",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EventBase.cpp",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EventBase.cpp",
               "RelativeDocumentMoniker": "Src\\EventBase.cpp",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EventBase.cpp",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EventBase.cpp",
               "RelativeToolTip": "Src\\EventBase.cpp",
               "ViewState": "AgIAAKYAAAAAAAAAAAAiwLoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -493,11 +524,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Object3D.CPP",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\Object3D.CPP",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Object3D.CPP",
               "RelativeDocumentMoniker": "Src\\Object3D.CPP",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\Object3D.CPP",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Object3D.CPP",
               "RelativeToolTip": "Src\\Object3D.CPP",
               "ViewState": "AgIAAEsAAAAAAAAAAAAAAGcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -505,11 +536,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "PlayScene.cpp",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\PlayScene.cpp",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\PlayScene.cpp",
               "RelativeDocumentMoniker": "Src\\PlayScene.cpp",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\PlayScene.cpp",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\PlayScene.cpp",
               "RelativeToolTip": "Src\\PlayScene.cpp",
               "ViewState": "AgIAADcAAAAAAAAAAAAiwEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -517,11 +548,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "ShadowControl.cpp",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\ShadowControl.cpp",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\ShadowControl.cpp",
               "RelativeDocumentMoniker": "Src\\ShadowControl.cpp",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\ShadowControl.cpp",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\ShadowControl.cpp",
               "RelativeToolTip": "Src\\ShadowControl.cpp",
               "ViewState": "AgIAADkAAAAAAAAAAAAAADMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -529,11 +560,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "EnemyBase.h",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyBase.h",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyBase.h",
               "RelativeDocumentMoniker": "Src\\EnemyBase.h",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyBase.h",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyBase.h",
               "RelativeToolTip": "Src\\EnemyBase.h",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -541,11 +572,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Collision.h",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\Collision.h",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Collision.h",
               "RelativeDocumentMoniker": "Src\\Collision.h",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\Collision.h",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Collision.h",
               "RelativeToolTip": "Src\\Collision.h",
               "ViewState": "AgIAAKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -553,11 +584,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "MapManager.h",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\MapManager.h",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\MapManager.h",
               "RelativeDocumentMoniker": "Src\\MapManager.h",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\MapManager.h",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\MapManager.h",
               "RelativeToolTip": "Src\\MapManager.h",
               "ViewState": "AgIAAEUAAAAAAAAAAAAAACIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -565,11 +596,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "MapManager.cpp",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\MapManager.cpp",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\MapManager.cpp",
               "RelativeDocumentMoniker": "Src\\MapManager.cpp",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\MapManager.cpp",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\MapManager.cpp",
               "RelativeToolTip": "Src\\MapManager.cpp",
               "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -577,11 +608,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "WeaponManager.h",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponManager.h",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponManager.h",
               "RelativeDocumentMoniker": "Src\\WeaponManager.h",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\WeaponManager.h",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponManager.h",
               "RelativeToolTip": "Src\\WeaponManager.h",
               "ViewState": "AgIAAEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -589,11 +620,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "EnemyBase.cpp",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyBase.cpp",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyBase.cpp",
               "RelativeDocumentMoniker": "Src\\EnemyBase.cpp",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyBase.cpp",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyBase.cpp",
               "RelativeToolTip": "Src\\EnemyBase.cpp",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -601,11 +632,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "ResultScore.cpp",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\ResultScore.cpp",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\ResultScore.cpp",
               "RelativeDocumentMoniker": "Src\\ResultScore.cpp",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\ResultScore.cpp",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\ResultScore.cpp",
               "RelativeToolTip": "Src\\ResultScore.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -613,11 +644,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "EnemyGolem.h",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyGolem.h",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyGolem.h",
               "RelativeDocumentMoniker": "Src\\EnemyGolem.h",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyGolem.h",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyGolem.h",
               "RelativeToolTip": "Src\\EnemyGolem.h",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -625,35 +656,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EnemyBd.cpp",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyBd.cpp",
-              "RelativeDocumentMoniker": "Src\\EnemyBd.cpp",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyBd.cpp",
-              "RelativeToolTip": "Src\\EnemyBd.cpp",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAAAJcAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-23T10:08:55.423Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 3,
               "Title": "Player.h",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\Player.h",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Player.h",
               "RelativeDocumentMoniker": "Src\\Player.h",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\Player.h",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Player.h",
               "RelativeToolTip": "Src\\Player.h",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-23T06:14:06.244Z"
+              "WhenOpened": "2025-05-23T06:14:06.244Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "EnemyBd.h",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyBd.h",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyBd.h",
               "RelativeDocumentMoniker": "Src\\EnemyBd.h",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EnemyBd.h",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyBd.h",
               "RelativeToolTip": "Src\\EnemyBd.h",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -661,11 +681,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "EffectManager.h",
-              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EffectManager.h",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EffectManager.h",
               "RelativeDocumentMoniker": "Src\\EffectManager.h",
-              "ToolTip": "C:\\Users\\A23002\\Desktop\\A3\\GPIII\\\u30D7\u30ED\u30B0\u30E9\u30E0\\C3DAct115_NoEffek_Ensyu\\Src\\EffectManager.h",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EffectManager.h",
               "RelativeToolTip": "Src\\EffectManager.h",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",

@@ -3,7 +3,7 @@
 #include "EnemyManager.h"
 #include "MapManager.h"
 #include "WeaponManager.h"
-
+#include "Camera.h"
 namespace {
 	const float Gravity = 0.025f; // 重力加速度(正の値)
 	const float JumpPower = 0.5f;  // ジャンプの初速
@@ -16,7 +16,8 @@ namespace {
 	const float MaxDeadTime = 100;
 };
 
-Player::Player()
+Player::Player():
+	Cam(nullptr)
 {
 	animator = new Animator(); // インスタンスを作成
 
@@ -142,6 +143,13 @@ SphereCollider Player::Collider()
 
 void Player::Update()
 {
+	if (!Cam)
+	{
+		Cam = ObjectManager::FindGameObject<Camera>();//カメラを取得する
+		return;
+	}
+	
+
 	VECTOR3 positionOld = transform.position;
 	velocity = VECTOR3(0, 0, 0);
 
@@ -222,7 +230,7 @@ void Player::updateNormalWalk()
 			forward = GetPositionVector(mesh->GetRootAnimUpMatrices(animator)) * 60 * SceneManager::DeltaTime();
 		}
 		forward.z *= ForwardPower;	// 前進のスピード倍率を掛ける
-		MATRIX4X4 rotY = XMMatrixRotationY(transform.rotation.y); // Yの回転行列
+		MATRIX4X4 rotY = XMMatrixRotationY(Cam->GetRotation().y); // Yの回転行列
 		velocity += forward * rotY; // キャラの向いてる方への移動量
 		transform.position += velocity;
 		if (atcstate == atAttack)

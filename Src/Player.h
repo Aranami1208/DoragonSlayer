@@ -4,6 +4,8 @@
 #include "Animator.h"
 #include "WeaponManager.h"
 
+class Camera;
+
 class Player : public Object3D {
 public:
 	Player();
@@ -19,7 +21,10 @@ public:
 	void SetMaxHp();
 	bool IsNormal() { if (state == stNormal) return true; else return false; }
 
+	
 private:
+
+	Camera* Cam;
 	float   speedY; 
 	VECTOR3 velocity;
 	int     number;

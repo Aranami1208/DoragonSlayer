@@ -1,9 +1,9 @@
 #include "Camera.h"
 #include "Player.h"
 #include "MapManager.h"
-//                                      後方視点　　　　　　真上視点　　　　　　　右横視点
-static const VECTOR3 CameraPos[] = { VECTOR3(0, 2, -5), VECTOR3(0, 100, -0.5) , VECTOR3(10, 1,  0 )};
-static const VECTOR3 LookPos[] =   { VECTOR3(0, 1,  5), VECTOR3(0,  1,  1  )  , VECTOR3(0,  1,  0  ) };
+//                                      後方視点　　　　
+static const VECTOR3 CameraPos = { VECTOR3(0, 2, -5)};
+static const VECTOR3 LookPos =   { VECTOR3(0, 1,  5)};
 static const float CHANGE_TIME_LIMIT = 0.5f; // 秒
 
 Camera::Camera()
@@ -12,6 +12,8 @@ Camera::Camera()
 	SetPriority(-10000); 	 // 最後に処理する
 	viewType = 0;
 	changeTime = CHANGE_TIME_LIMIT; // 切り替え時間
+	MoucePoint = GameDevice()->m_pDI->GetMousePos();
+	
 }
 
 Camera::~Camera()
@@ -20,30 +22,37 @@ Camera::~Camera()
 
 void Camera::Update()
 {
-	// ２つの視点を'L'キーによって切り替える
-	if (GameDevice()->m_pDI->CheckKey(KD_TRG, DIK_L)) {
-		changePosStart = CameraPos[viewType];
-		changeLookStart = LookPos[viewType];
-		viewType += 1;
-		if (viewType >= sizeof(CameraPos) / sizeof(CameraPos[0])) {
-			viewType = 0;
-		}
-		changePosGoal = CameraPos[viewType];
-		changeLookGoal = LookPos[viewType];
-		changeTime = 0.0f;
-	}
+	//入力を取得 
+	CDirectInput* DInput = GameDevice()->m_pDI;
+
+	POINT CurrentPoint = DInput->GetMousePos();
+
+	MouceDiff.x = MoucePoint.x - CurrentPoint.x;
+	MouceDiff.y = MoucePoint.y - CurrentPoint.y;
+
+	MoucePoint = CurrentPoint;
+	float MoveRate = 0.01;
+
+	//カメラローテーション
+	transform.rotation = transform.rotation +VECTOR3(-MouceDiff.y, -MouceDiff.x, 0) * MoveRate;
+
+	
 
 	// プレイヤーの行列を求める
 	Player* player = ObjectManager::FindGameObject<Player>();
-	MATRIX4X4 rotY = XMMatrixRotationY(player->Rotation().y);
+	MATRIX4X4 rot = XMMatrixRotationRollPitchYawFromVector(transform.rotation);
 	//MATRIX4X4 trans = XMMatrixTranslation( player->Position().x, 0.0f, player->Position().z);
 	MATRIX4X4 trans = XMMatrixTranslationFromVector( player->Position());
-	MATRIX4X4 m = rotY * trans;
+	MATRIX4X4 m = rot * trans;
 	// プレイヤーが回転・移動してない時のカメラ位置に
 	// プレイヤーの回転・移動行列を掛けると、
+
+
+	
+
 	if (changeTime >= CHANGE_TIME_LIMIT) {
-		transform.position = CameraPos[viewType] * m;
-		lookPosition = LookPos[viewType] * m;
+		transform.position = CameraPos * m;
+		lookPosition = LookPos * m;
 	}
 	else { // 視点切り替え中
 		//changeTime += 1.0f / 60.0f;
@@ -72,6 +81,8 @@ void Camera::Update()
 	//endから0.02手前に置く;
 	transform.position = XMVector3Normalize(camVec) * ((end - start).Length() - 0.02f) + start;
 
+	//向いているベクトルを求める
+	ForwardVector = lookPosition - transform.position;
 
 	// ------------------------------------------------------------------
 	// カメラ座標をGameMainに設定する
@@ -101,5 +112,16 @@ void Camera::Update()
 		}
 	}
 
+}
+
+
+VECTOR3 Camera::GetForwardVector()
+{
+	return XMVector3Normalize(ForwardVector);
+}
+
+VECTOR3 Camera::GetRotation()
+{
+	return transform.rotation;
 }
 
