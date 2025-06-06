@@ -1,0 +1,65 @@
+﻿// PCオブジェクト   X座標,Y座標,Z座標, Y回転
+Player         0,0,0, 0
+
+//	ステージマップ　MapStage   x, y, z, Y軸回転角度, タグ名, マップメッシュ名, コリジョンメッシュ名（コリジョンないときは省略）,ディスプレイスメントマッピング
+MapStage       0,0,0,      0,          , Data/Map/MapTkr/map50Dungeon2.mesh,  Data/Map/MapTkr/map50Dungeon2.mesh
+MapStage       420,0,240,  0,  TagDoor1, Data/Map/MapItem/DOOR1.mesh,    Data/Map/MapItem/DOOR1.mesh 
+MapStage       20,0,20,    0,  TagDoor2, Data/Map/MapItem/DOOR1.mesh,    Data/Map/MapItem/DOOR1.mesh 
+
+// イベントチェンジスクリプト  EventChangeScript      タグ名, チェンジ先のスクリプトファイル名, 1回きりOnceで削除か, EnterKey必要か
+EventChangeScript   TagDoor1, Data/Script/MapStage.txt
+EventChangeScript   TagDoor2, Data/Script/MapPractice.txt
+
+//	移動マップ  MapMove  x,y,z, Y軸回転角度, タグ名, MoveOn, MoveFlag, Upx,Upy,Upz,  Minx,Miny,Minz,  Maxx,Maxy,Maxz,  Loop,  マップメッシュ名, コリジョンマップ名, ディスプレイスメントマッピングDisplace
+// 左右に移動する床
+//MapMove       200.0, -0.23, 200, 0, TagFloor1, MoveOn, Pos,  0.08,0,0,  -41,0,0,  41,0,0,  Loop,  Data/Map/MapItem/cube11.mesh,  Data/Map/MapItem/cube11.mesh
+
+// 開閉する門
+MapMove       0,0,100, 0, TagGate1, MoveOff, Pos,  -0.05,0,0,  -18.0,0,0,  0,0,0,  LoopOff,  Data/Map/MapItem/cube4.mesh,  Data/Map/MapItem/cube4.mesh
+
+// イベント移動マップ   EventMoveMap   タグ名, 制御する移動マップのタグ名, ActiveMoveOn, 1回きりOnceで削除か, EnterKey必要か
+EventMoveMap    TagGate1, TagGate1, MoveOn,   ,Enter
+
+
+// フォグの設定
+//      fog = 0;                 フォグ有無(0:無し 1:指数フォグ 2:グランドフォグ)
+//      fogVolume = 5.0f;        フォグ量（指数）
+//      fogDensity = 0.05f;      フォグ密度
+//      fogHeight = 50.0f;       フォグ高さ
+//      fogColor = VECTOR4(0,0,0,1);  フォグの色
+MapFog  0, 5.0, 0.05, 50.0,   0.0, 0.0, 0.0, 1.0
+
+// HDRレンダリングの指定
+//		fLimit:ブライトのしきい値(1.0未満)、HDR無しは、1.0f
+//		fForce:ブルームの強さ(1.0以上)
+MapHDR  1.0, 1.0
+
+
+// 敵オブジェクト     Route/Area,  巡回ルートX,Y,Zかエリアのmin,max
+EnemyRS       Route,  30,0,230,  -30,0,230,  -30,0,170,  30,0,170
+EnemyGolem    Route,  -227,0,227,  -227,0,173,  -173,0,173, -177,0,227
+EnemyBd       Route,  427,0,227,  427,0,173,  373,0,173, 377,0,227
+
+
+// 溶岩の敵     x, y, z,     幅, 深さ,奥行き
+// 溶岩の敵オブジェクト   EnemyLava  x,y,z, 幅, 深さ, 奥行き
+//EnemyLava       63,-0.5,30,   50, 5, 70
+
+// 火炎流体の設定
+//   x,y,z,  CubeSize, fColorNo, Density(密度), Velocity(速度), Random, AddVoxelWidth(発生広さ)
+//   標準設定値　(x,y,z,  3.0, 1, 2.0, 300, 0.3, 0)
+//MapFluid   -100.0,10.0,100.0,  10.0,  1,  2.0,  300,  0.9,  0     // 山の上の噴火
+//MapFluid     2.0,-0.1,-15.0,    3.0,  2,  2.0,  300,  0.3,  0     // 青い炎
+//MapFluid    -2.0,-0.15,-15.0,   2.0,  4,  2.0,  100,  0.9,  5     // 薄い煙
+
+
+
+// Effekseerエフェクトの生成  Effekseer  x, y, z, X回転,Y回転,Z回転, タグ名, Effekseer名
+//Effekseer   0,0.09,200, 0,0,0, TagMagic1, Magic3
+
+// イベントチェンジスクリプト  EventChangeScript      タグ名, チェンジ先のスクリプトファイル名, 1回きりOnceで削除か, EnterKey必要か
+//EventChangeScript   TagMagic1, Data/Script/MapField.txt, ,Enter
+
+// イベント救急箱  EventRescue      タグ名, 1回きりOnceで削除か, EnterKey必要か 
+EventRescue      TagMagic1, Once
+

@@ -1,0 +1,87 @@
+﻿// PCオブジェクト   X座標,Y座標,Z座標, Y回転
+Player           0,0,-50,  0
+
+
+//	ステージマップ　MapStage   x, y, z, Y軸回転角度, タグ名, マップメッシュ名, コリジョンメッシュ名（コリジョンないときは省略）, ディスプレイスメントマッピングDisplace
+MapStage         0,0,0,    0,          ,  Data/Map/MapTkr/map50Field2.mesh,  Data/Map/MapTkr/map50Field2.mesh
+//MapStage         0,0,0,    0,          ,  Data/Map/MapClsc/map40.mesh,   Data/Map/MapClsc/map40_CHK.mesh
+MapStage      -150,0,80, 0,  TagDoor1,  Data/Map/MapItem/DOOR1.mesh,  Data/Map/MapItem/DOOR1.mesh
+MapStage      40,0,-40, 90,  TagDoor2,  Data/Map/MapItem/DOOR1.mesh,  Data/Map/MapItem/DOOR1.mesh
+
+// イベントチェンジスクリプト  EventChangeScript      タグ名, チェンジ先のスクリプトファイル名, 1回きりOnceで削除か, EnterKey必要か
+EventChangeScript  TagDoor1,  Data/Script/MapDungeon.txt
+EventChangeScript  TagDoor2,  Data/Script/MapDungeon.txt
+
+
+//	樹や草などの透明色のあるマップ　MapTree   x, y, z, Y軸回転角度, タグ名, マップメッシュ名, コリジョンメッシュ名（コリジョンないときは省略）, ディスプレイスメントマッピングDisplace
+MapTree        -50,0,20,  0,           ,  Data/Map/Tree/tree4.mesh,  Data/Map/Tree/tree4_chk.mesh
+
+
+//	移動マップ  MapMove  x,y,z, Y軸回転角度, タグ名, MoveOn, MoveFlag, Upx,Upy,Upz,  Minx,Miny,Minz,  Maxx,Maxy,Maxz,  Loop,  マップメッシュ名, コリジョンマップ名, ディスプレイスメントマッピングDisplace
+// 開閉する門
+MapMove       -100,0,0, 0,  TagGate1, MoveOff, Pos,  0,0,-0.05,  0,0,-7.0,  0,0,0,  LoopOff,  Data/Map/MapItem/cube3.mesh,  Data/Map/MapItem/cube3.mesh
+// 移動マップ演習
+
+
+// イベント移動マップ   EventMoveMap   タグ名, 制御する移動マップのタグ名, ActiveMoveOn, 1回きりOnceで削除か, EnterKey必要か
+EventMoveMap    TagGate1, TagGate1, MoveOn,   ,Enter
+
+
+//	空マップ　MapSky  空メッシュ名
+MapSky           Data/Map/Sky/sky2.mesh
+
+//	波マップ　MapWave  x, y, z, 幅, 奥行き, ノーマルマップ名,  r,g,b,a(水の色・省略可)
+//					(x,y,zは水面の中心位置を指定する。すると内部で左端、手前端の位置を計算して指定する)
+MapWave         63,-0.5,30,  50, 70,  Data/Map/MapItem/WaterNM.png
+
+// 溶岩の敵オブジェクト   EnemyLava  x,y,z, 幅, 深さ, 奥行き
+//EnemyLava       63,-0.5,30,   50, 5, 70
+
+// 火炎流体の設定
+//   x,y,z,  CubeSize, fColorNo, Density(密度), Velocity(速度), Random, AddVoxelWidth(発生広さ)
+//   標準設定値　(x,y,z,  3.0, 1, 2.0, 300, 0.3, 0)
+//MapFluid   -100.0,10.0,100.0,  10.0,  1,  2.0,  300,  0.9,  0     // 山の上の噴火
+//MapFluid     2.0,-0.1,-15.0,    3.0,  2,  2.0,  300,  0.3,  0     // 青い炎
+//MapFluid    -2.0,-0.15,-15.0,   2.0,  4,  2.0,  100,  0.9,  5     // 薄い煙
+
+
+// フォグの設定
+//      fog = 0;                 フォグ有無(0:無し 1:指数フォグ 2:グランドフォグ)
+//      fogVolume = 4.0f;        フォグ量（指数）
+//      fogDensity = 0.08f;      フォグ密度
+//      fogHeight = 50.0f;       フォグ高さ
+//      fogColor = VECTOR4(1,1,1,1);  フォグの色
+MapFog  0, 4.0, 0.08, 50.0,   1.0, 1.0, 1.0, 1.0
+
+// HDRレンダリングの指定
+//		fLimit:ブライトのしきい値(1.0未満)、HDR無しは、1.0f
+//		fForce:ブルームの強さ(1.0以上)
+//MapHDR  0.7, 1.3
+MapHDR  1.0, 1.3
+
+
+// 敵オブジェクト     Route/Area,  巡回ルートX,Y,Zかエリアのmin,max
+//EnemyRS       Route,   30,0,30,  -30,0,30,  -30,0,-30,  30,0,-30
+//EnemyGolem    Route,  -27,0,27,  -27,0,-27,  27,0,-27,  27,0,27
+EnemyRS       Area,   -30.0, 0.1, 10.0,    30.0, 0.1, 30.0
+EnemyGolem    Area,   -30.0, 0.1, 10.0,    30.0, 0.1, 30.0
+EnemyBd       Area,   -30.0, 0.1, 10.0,    30.0, 0.1, 30.0
+EnemyAndroid Area, -30.0, 0.1, 10.0, 30.0, 0.1, 30.0
+
+
+
+// アイテム   Item   x, y, z, Y軸回転角度, タグ名, マップメッシュ名（表示ないときは省略）, コリジョンメッシュ名
+Item   10,1,-30, RotXZ,  TagRescue1, Data/Item/resque.mesh , Data/Item/resque.mesh
+// アイテム   Item   x, y, z, 半径radius, タグ名
+//Item   10,1,-30, 3.0,  TagRescue1
+
+// イベント救急箱   EventRescue  タグ名, 1回きりOnceで削除か, EnterKey必要か
+EventRescue   TagRescue1, Once
+
+// Effekseerエフェクトの生成  Effekseer  x, y, z, X回転,Y回転,Z回転, タグ名, Effekseer名
+//Effekseer   0,0.05,-35, 0, 0,0, TagMagic1, Magic3
+
+// イベント救急箱   EventRescue  タグ名, 1回きりOnceで削除か, EnterKey必要か
+//EventRescue   TagMagic1, Once
+
+

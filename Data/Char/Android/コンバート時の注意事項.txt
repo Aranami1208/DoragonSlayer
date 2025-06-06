@@ -1,0 +1,4 @@
+ConvertFbx3使用時の注意事項
+
+1．androidは、２倍の大きさでmesh、anmxファイルを作成しております。
+　　そのため、ファイル名もandroidではなくてandroid2にしてあります。

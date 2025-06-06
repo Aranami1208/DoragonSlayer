@@ -1,0 +1,43 @@
+﻿// PCオブジェクト   X座標,Y座標,Z座標, Y回転
+Player         0,0,0, 0
+
+//	ステージマップ　MapStage   x, y, z, Y軸回転角度, タグ名, マップメッシュ名, コリジョンメッシュ名（コリジョンないときは省略）,ディスプレイスメントマッピング
+MapStage       0,0,0,      0,          , Data/Map/MapTkr/map50MN.mesh,  Data/Map/MapTkr/map50MN.mesh, Displace
+MapStage       0,0,100,    0,          , Data/Map/MapTkr/map50DNS.mesh,  Data/Map/MapTkr/map50DNS.mesh, Displace
+MapStage       0,0,200,    0,          , Data/Map/MapTkr/map50GBDN.mesh,  Data/Map/MapTkr/map50GBDN_CHK.mesh, Displace
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ドア・ステージマップ　MapStage   x, y, z, Y軸回転角度, タグ名, マップメッシュ名, コリジョンメッシュ名（コリジョンないときは省略）,ディスプレイスメントマッピング
+MapStage       20,0,20,  0,  TagDoor1, Data/Map/MapItem/DOOR1.mesh,    Data/Map/MapItem/DOOR1.mesh 
+// イベントチェンジスクリプト  EventChangeScript      タグ名, チェンジ先のスクリプトファイル名, 1回きりOnceで削除か, EnterKey必要か
+EventChangeScript   TagDoor1, Data/Script/MapStage.txt
+
+//	空マップ　MapSky  空メッシュ名
+MapSky           Data/Map/Sky/sky2.mesh
+
+// フォグの設定
+//      fog = 0;                 フォグ有無(0:無し 1:指数フォグ 2:グランドフォグ)
+//      fogVolume = 5.0f;        フォグ量（指数）
+//      fogDensity = 0.05f;      フォグ密度
+//      fogHeight = 50.0f;       フォグ高さ
+//      fogColor = VECTOR4(0,0,0,1);  フォグの色
+MapFog  0, 5.0, 0.05, 50.0,   0.0, 0.0, 0.0, 1.0
+
+// HDRレンダリングの指定
+//		fLimit:ブライトのしきい値(1.0未満)、HDR無しは、1.0f
+//		fForce:ブルームの強さ(1.0以上)
+MapHDR  1.0, 1.0
+
+
