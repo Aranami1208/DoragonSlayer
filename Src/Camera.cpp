@@ -12,8 +12,13 @@ Camera::Camera()
 	SetPriority(-10000); 	 // 最後に処理する
 	viewType = 0;
 	changeTime = CHANGE_TIME_LIMIT; // 切り替え時間
-	MoucePoint = GameDevice()->m_pDI->GetMousePos();
-	
+	LONG HalfHeight = 1080 / 2;
+	LONG HalfWidth = 1920 / 2;
+
+	MoucePoint.x = HalfWidth;
+	MoucePoint.y = HalfHeight;
+
+	SetCursorPos(HalfWidth, HalfHeight);
 }
 
 Camera::~Camera()
@@ -22,19 +27,32 @@ Camera::~Camera()
 
 void Camera::Update()
 {
+	
 	//入力を取得 
 	CDirectInput* DInput = GameDevice()->m_pDI;
 
-	POINT CurrentPoint = DInput->GetMousePos();
+	DInput->ShowMouseCursor(false);
 
-	MouceDiff.x = MoucePoint.x - CurrentPoint.x;
-	MouceDiff.y = MoucePoint.y - CurrentPoint.y;
+	POINT CurrentPoint;
 
+	GetCursorPos(&CurrentPoint);
+
+	int HalfHeight = 1080 / 2;
+	int HalfWidth = 1920 / 2;
+
+
+	MouceDiff.x = HalfWidth - CurrentPoint.x;
+	MouceDiff.y = HalfHeight - CurrentPoint.y;
+	
 	MoucePoint = CurrentPoint;
-	float MoveRate = 0.01;
+	SetCursorPos(HalfWidth, HalfHeight);
+
+	VECTOR3 MoveRate = VECTOR3(0.01f,0.005f,0.0f);
+
+
 
 	//カメラローテーション
-	transform.rotation = transform.rotation +VECTOR3(-MouceDiff.y, -MouceDiff.x, 0) * MoveRate;
+	transform.rotation = transform.rotation +VECTOR3(-MouceDiff.y * MoveRate.y, -MouceDiff.x * MoveRate.x, 0);
 
 	
 

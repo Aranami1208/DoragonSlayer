@@ -141,7 +141,7 @@ void EnemyAndroid::makeBehaviour()
 	node2->AddChild<BehaviourAction>(this, actionIsReach);
 	auto* node3 = node2->AddChild<BehaviourSelector>();
 	node3->AddChild<BehaviourAction>(this, actionReach);
-	node3->AddChild<BehaviourAction>(this, actionAttackSword);
+	node3->AddChild<BehaviourAction>(this, actionAttackNeedleFire);
 	auto* node4 = node1->AddChild<BehaviourSelector>();
 	node4->AddChild<BehaviourAction>(this, actionIdle);
 	node4->AddChild<BehaviourAction>(this, actionWalk);
@@ -241,4 +241,47 @@ BehaviourBase::BtState EnemyAndroid::actionAttackSword(Object3D* objIn)  // 攻撃
 		return BehaviourBase::bsTrue;  // 攻撃アニメーションが正常に終了したときはbsTrue 
 	}
 	return BehaviourBase::bsRunning;   // 攻撃中のときはbsRunning 
+}
+
+BehaviourBase::BtState EnemyAndroid::actionAttackNeedleFire(Object3D* objIn)
+{
+	auto* my = dynamic_cast<EnemyAndroid*>(objIn);
+	my->animator->MergePlay(aAttack1);
+
+	if (my->targetPlayer == nullptr) {  	// ターゲットとなるＰＣが無いとき(普通はあり得ない)
+		my->animator->MergePlay(aRun);
+		return BehaviourBase::bsFalse;
+	}
+
+	my->FireTimer++;
+
+
+	WeaponManager* wm = ObjectManager::FindGameObject<WeaponManager>();
+
+	VECTOR3 startIn = my->TargetPos;
+	VECTOR3 targetIn = startIn + VECTOR3(0, 2, 0);
+
+	std::string tag = "";
+
+	if (my->FireTimer == 1)
+	{
+		ObjectManager::FindGameObject<WeaponManager>()->SpawnMany<WeaponFireBall2>(my->Position(), targetIn, WeaponBase::eENM);
+	}
+
+	if (my->FireTimer % my->FireInterval == 0)
+	{
+		ObjectManager::FindGameObject<WeaponManager>()->SpawnMany<WeaponFireBall2>(startIn, targetIn, WeaponBase::eENM);
+		my->TargetPos = my->targetPlayer->Position();
+	}
+
+	if (my->animator->Finished()) // 攻撃アニメーションが終了？ 
+	{
+		my->TargetPos = VECTOR3(-5000);
+		my->FireTimer = 0;
+		my->animator->Play(aRun);
+		my->swordObj->SetActive(false);
+		return BehaviourBase::bsTrue;  // 攻撃アニメーションが正常に終了したときはbsTrue 
+	}
+
+	return BehaviourBase::bsRunning;
 }

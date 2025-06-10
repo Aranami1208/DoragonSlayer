@@ -35,4 +35,11 @@ private:
 	static BehaviourBase::BtState actionIdle(Object3D* objIn);
 	static BehaviourBase::BtState actionReach(Object3D* objIn);
 	static BehaviourBase::BtState actionAttackSword(Object3D* objIn);
+	//’n–Ê‚©‚ç‰Š‚ª‚Í‚¦‚éUŒ‚
+	static BehaviourBase::BtState actionAttackNeedleFire(Object3D* objIn);
+
+	int FireTimer = 0;
+	int FireInterval = 30;
+
+	VECTOR3 TargetPos = VECTOR3(0,-5000,0);
 };

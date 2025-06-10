@@ -21,58 +21,7 @@ Player::Player():
 {
 	animator = new Animator(); // インスタンスを作成
 
-/*
-	// character
-	mesh = new CFbxMesh();
-	mesh->Load("Data/Char/Character/character.mesh");
-	mesh->LoadAnimation(aIdle, "Data/Char/Character/character_stand.anmx", true);
-	mesh->LoadAnimation(aRun, "Data/Char/Character/character_forward_middle_RAXZ.anmx", true, eRootAnimXZ);
-	mesh->LoadAnimation(aDead, "Data/Char/Character/character_die.anmx", false);
-	mesh->LoadAnimation(aAttack1, "Data/Char/Character/character_attack.anmx", false);
-	mesh->LoadAnimation(aAttack2, "Data/Char/Character/character_attack.anmx", false);
-	mesh->LoadAnimation(aAttack3, "Data/Char/Character/character_attack.anmx", false);
-	swordObj = ObjectManager::FindGameObject<WeaponManager>()->Spawn<WeaponSword>(WeaponBase::ePC);	  // 剣の発生
-	swordObj->SetWeaponSword("", 0, 12, VECTOR3(1.1f, 0.0f, 0.0f));		  // 剣メッシュなし　　手首の位置(0,12は手首)、長さは手首から1.1f先の位置
-	swordObj->SetParent(this);
-	gunObj = ObjectManager::FindGameObject<WeaponManager>()->Spawn<WeaponGun>(WeaponBase::ePC);	  // 銃の発生
-	gunObj->SetWeaponGun("", 0, 12, VECTOR3(0,0,0));		  // 銃メッシュなし　　手首の位置(0,12は手首) ,銃口位置は(0,0,0)
-	gunObj->SetParent(this);
-*/
-	/*
-	// Dreyer
-	mesh = new CFbxMesh();
-	mesh->Load("Data/Char/Dreyar/Dreyar.mesh");
-	mesh->LoadAnimation(aIdle, "Data/Char/Dreyar/Dreyar_Idle.anmx", true);
-	mesh->LoadAnimation(aRun, "Data/Char/Dreyar/Dreyar_Running.anmx", true);
-	mesh->LoadAnimation(aDead, "Data/Char/Dreyar/Dreyar_Dying.anmx", false);
-	mesh->LoadAnimation(aAttack1, "Data/Char/Dreyar/Dreyar_Sword.anmx", false);
-	mesh->LoadAnimation(aAttack2, "Data/Char/Dreyar/Dreyar_Sword.anmx", false);
-	mesh->LoadAnimation(aAttack3, "Data/Char/Dreyar/Dreyar_Sword.anmx", false);
-	swordObj = ObjectManager::FindGameObject<WeaponManager>()->Spawn<WeaponSword>(WeaponBase::ePC);	  // 剣の発生
-	swordObj->SetWeaponSword("Sword", 0, 45, VECTOR3(0,0,0), VECTOR3(0.0f, 0.02f, -0.04f), VECTOR3(0.0f, 0.0f, -90.0f)); // 剣のメッシュ、手首の位置(0,45は手首) ,長さはメッシュで指定、アジャストの位置と角度
-	swordObj->SetParent(this);
-	gunObj = ObjectManager::FindGameObject<WeaponManager>()->Spawn<WeaponGun>(WeaponBase::ePC);	  // 銃の発生
-	gunObj->SetWeaponGun("", 0, 45, VECTOR3(0,0,0));      // 銃メッシュなし、手首の位置(0,45は手首) ,銃口位置は(0,0,0)
-	gunObj->SetParent(this);
-*/
-/*
-	// Maria
-	mesh = new CFbxMesh();
-	mesh->Load("Data/Char/Maria/Maria.mesh");
-	mesh->LoadAnimation(aIdle, "Data/Char/Maria/Maria_Idle.anmx", true);
-	mesh->LoadAnimation(aRun, "Data/Char/Maria/Maria_Running.anmx", true);
-	mesh->LoadAnimation(aDead, "Data/Char/Maria/Maria_Dying.anmx", false);
-	mesh->LoadAnimation(aAttack1, "Data/Char/Maria/Maria_Slash.anmx", false);
-	mesh->LoadAnimation(aAttack2, "Data/Char/Maria/Maria_Slash.anmx", false);
-	mesh->LoadAnimation(aAttack3, "Data/Char/Maria/Maria_Slash.anmx", false);
-	swordObj = ObjectManager::FindGameObject<WeaponManager>()->Spawn<WeaponSword>(WeaponBase::ePC);	  // 剣の発生　　
-	swordObj->SetWeaponSword("Sword", 0, 43, VECTOR3(0,0,0), VECTOR3(0.0f, 0.01f, -0.02f), VECTOR3(0.0f, 0.0f, -90.0f));  // 剣のメッシュ、手首の位置(0,43は手首) ,長さはメッシュで指定、アジャストの位置と角度
-	swordObj->SetParent(this);
-	gunObj = ObjectManager::FindGameObject<WeaponManager>()->Spawn<WeaponGun>(WeaponBase::ePC);	  // 銃の発生
-	//gunObj->SetWeaponGun("Pistol", 0, 43, VECTOR3(0,0,0), VECTOR3(0.0f, 0.0f, 0.0f),VECTOR3(180.0f, 0.0f, 90.0f));  // 銃のメッシュ　　手首の位置(0,43は手首) ,銃口位置はメッシュで指定、アジャストの位置と角度
-	gunObj->SetWeaponGun("", 0, 43, VECTOR3(0,0,0));   // 銃メッシュなし、手首の位置(0,43は手首) ,銃口位置は(0,0,0)
-	gunObj->SetParent(this);
-*/
+
 // Solia
 	mesh = new CFbxMesh();
 	mesh->Load("Data/Char/Solia/Solia.mesh");
@@ -217,57 +166,72 @@ void Player::updateNormal()
 
 void Player::updateNormalWalk()
 {
-	if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_W) || GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_UP)) {
-		// 前進
-		VECTOR3 forward;
-		// ルートボーンアニメーションを行うかどうかルートアニメーションタイプを確認する
-		if (mesh->GetRootAnimType(animator->PlayingID()) == eRootAnimNone)
-		{
-			forward = VECTOR3(0, 0, MoveSpeed * 60 * SceneManager::DeltaTime()); // 回転してない時の移動量
-		}
-		else {
-			// ルートボーンアニメーションでの前進移動値
-			forward = GetPositionVector(mesh->GetRootAnimUpMatrices(animator)) * 60 * SceneManager::DeltaTime();
-		}
-		forward.z *= ForwardPower;	// 前進のスピード倍率を掛ける
-		MATRIX4X4 rotY = XMMatrixRotationY(Cam->GetRotation().y); // Yの回転行列
-		velocity += forward * rotY; // キャラの向いてる方への移動量
-		transform.position += velocity;
-		if (atcstate == atAttack)
-		{
- 			animator->MergePlay(aAttack1);
-		}
-		else {
-			animator->MergePlay(aRun);
-		}
+	//ルート２(ナナメ移動用)
+	float root2 = 1/ sqrtf(2.0f);
+
+	if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_W) && GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_A)) {
+		//左斜め前
+		move(VECTOR3(-root2, 0, root2));
+	}else if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_W) && GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_D)) {
+		//右斜め前
+		move(VECTOR3(root2, 0, root2));
+	}
+	else if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_S) && GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_D)) {
+		//右斜め後ろ
+		move(VECTOR3(root2, 0, -root2));
+	}else if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_S) && GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_A)) {
+		//左斜め前
+		move(VECTOR3(-root2, 0, -root2));
+	}else if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_W) || GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_UP)) {
+		//前進処理
+		move(VECTOR3(0,0,1));
 	} else if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_S) || GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_DOWN)) {
 		// 後退
-		VECTOR3 forward = VECTOR3(0, 0, MoveSpeed * 60 * SceneManager::DeltaTime()); // 回転してない時の移動量 // -- 2024.9.5
-		MATRIX4X4 rotY = XMMatrixRotationY(transform.rotation.y); // Yの回転行列
-		velocity -=  forward * rotY; // キャラの向いてる方への移動量
-		if (atcstate == atAttack)
-		{
- 			animator->MergePlay(aAttack1);
-		}
-		else {
-			animator->MergePlay(aRun);
-		}
+		move(VECTOR3(0, 0, -1));
 	}
-	else {
+	else if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_A) || GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_LEFT)) {
+		//左に進む
+		move(VECTOR3(-1, 0, 0));
+	}
+	else if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_D) || GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_RIGHT)) {
+		//右に進む
+		move(VECTOR3(1, 0, 0));
+	}
+	else {//移動していなければ攻撃を開始
 		if (atcstate == atAttack)
 		{
- 			animator->MergePlay(aAttack1);
+			animator->MergePlay(aAttack1);
 		}
 		else {
 			animator->MergePlay(aIdle);
 		}
 	}
-	if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_A) || GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_LEFT)) {
-		transform.rotation.y -= RotationSpeed * DegToRad * 60 * SceneManager::DeltaTime();	   // -- 2024.9.5
+
+	//移動していた場合、キャラクターの向く方向を設定
+	if (velocity.Length() > 0.0f)
+	{
+		targetRotY = atan2f(velocity.x, velocity.z);
 	}
-	if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_D) || GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_RIGHT)) {
-		transform.rotation.y += RotationSpeed * DegToRad * 60 * SceneManager::DeltaTime();	  // -- 2024.9.5
+
+	float RotDiff = targetRotY - transform.rotation.y;
+
+	//回転方向を最短にするための処理
+	while (RotDiff > XM_PI) RotDiff -= XM_2PI;
+	while (RotDiff < -XM_PI) RotDiff += XM_2PI;
+
+	//1フレームで回転する量
+	float RotationStep = (1.0f / RotationTime) * SceneManager::DeltaTime();
+
+	if (fabs(RotDiff) < RotationStep)
+	{
+		transform.rotation.y = targetRotY;
 	}
+	else
+	{
+		transform.rotation.y += (RotDiff > 0) ? RotationStep : -RotationStep;
+	}
+
+
 	if ( speedY == 0 && GameDevice()->m_pDI->CheckKey(KD_TRG, DIK_SPACE)) {	  // ジャンプボタン
 		speedY = JumpPower;
 	}
@@ -276,20 +240,20 @@ void Player::updateNormalWalk()
 		gunObj->ShotLaser(WeaponBase::ePC);
 	}
 
-	if ( atcstate != atAttack && GameDevice()->m_pDI->CheckKey(KD_TRG, DIK_Z)) { // 剣攻撃ボタン
+	if ( atcstate != atAttack && GameDevice()->m_pDI->CheckMouse(KD_TRG,DIM_LBUTTON)) { // 剣攻撃ボタン
 		animator->MergePlay(aAttack1);
 		atcstate = atAttack;
 		swordObj->SetActive(true);
 	}
 	
-	if (GameDevice()->m_pDI->CheckKey(KD_TRG, DIK_C)) { // 火の玉攻撃ボタン
+	if (GameDevice()->m_pDI->CheckKey(KD_TRG, DIK_Q)) { // 火の玉攻撃ボタン
 		VECTOR3 startIn = transform.position + VECTOR3(0, 1.0f, 0);
 		VECTOR3 targetIn = XMVector3TransformCoord(VECTOR3(0, 1.0f, 30), transform.matrix());
 		ObjectManager::FindGameObject<WeaponManager>()->SpawnMany<WeaponFireBall2>(startIn, targetIn, WeaponBase::ePC);
 	}
 	
 	
-	if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_B)) { // 火炎放射器攻撃ボタン
+	if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_E)) { // 火炎放射器攻撃ボタン
 		VECTOR3 startIn = transform.position + VECTOR3(0, 1.0f, 0);
 		VECTOR3 targetIn = XMVector3TransformCoord(VECTOR3(0, 1.0f, 30), transform.matrix());
 		ObjectManager::FindGameObject<WeaponManager>()->SpawnFlamethrower(startIn, targetIn, WeaponBase::ePC, tag);
@@ -336,6 +300,36 @@ void Player::updateDead()
 			state = stFlash;
 			flashTimer = MaxDeadTime;
 		}
+	}
+}
+
+void Player::move(VECTOR3 Direction)
+{
+	VECTOR3 vec;
+
+	// ルートボーンアニメーションを行うかどうかルートアニメーションタイプを確認する
+	if (mesh->GetRootAnimType(animator->PlayingID()) == eRootAnimNone)
+	{
+		vec = Direction * MoveSpeed * 60 * SceneManager::DeltaTime();
+	}
+	else {
+		// ルートボーンアニメーションでの前進移動値
+		vec = GetPositionVector(mesh->GetRootAnimUpMatrices(animator)) * 60 * SceneManager::DeltaTime();
+	}
+	vec *= ForwardPower;	// 前進のスピード倍率を掛ける
+	MATRIX4X4 rotY = XMMatrixRotationY(Cam->GetRotation().y); // Yの回転行列
+	velocity += vec * rotY; // キャラの向いてる方への移動量
+
+	//移動量を加算
+	transform.position += velocity;
+
+	//攻撃入力されている場合は、MergePlay
+	if (atcstate == atAttack)
+	{
+		animator->MergePlay(aAttack1);
+	}
+	else {
+		animator->MergePlay(aRun);
 	}
 }
 

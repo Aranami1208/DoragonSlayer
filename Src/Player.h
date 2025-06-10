@@ -30,6 +30,12 @@ private:
 	int     number;
 	int     hitPoint;
 	float   flashTimer;
+
+	//Œü‚­–Ú•W‚ÌRotation 
+	float targetRotY = 0.0f;
+	//‰ñ“]‚É‚©‚¯‚éŠÔ
+	float RotationTime = 0.15f;
+
 	WeaponSword* swordObj;
 	WeaponGun*   gunObj;
 	std::string tag;
@@ -63,4 +69,10 @@ private:
 	void updateNormalAttack();
 	void updateDamage();
 	void updateDead();
+
+	/// <summary>
+	/// ˆÚ“®ˆ— T.Aranami 25/06/09
+	/// </summary>
+	/// <param name="Direction">“®‚­•ûŒü(Še—v‘f-‚P`‚P‚Ì”ÍˆÍ‚Å)</param>
+	void move(VECTOR3 Direction);
 };

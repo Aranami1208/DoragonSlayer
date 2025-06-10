@@ -107,6 +107,14 @@ struct VECTOR3 : public XMFLOAT3
 	{
 		this->x = x; this->y = y; this->z = z;
 	}
+
+
+	//T.Aranami 25/06/09 ˆê‚Â‚Ì’l‚ð“ü‚ê‚½ê‡‚·‚×‚Ä“¯‚¶’l‚É‚·‚é
+	VECTOR3(float value)
+	{
+		this->x = this->y = this->z = value;
+	}
+
 	VECTOR3(const XMVECTOR& other) :XMFLOAT3()
 	{
 		XMVECTOR temp = other;
