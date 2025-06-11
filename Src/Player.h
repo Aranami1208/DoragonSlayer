@@ -49,7 +49,7 @@ private:
 	enum AnimID {
 		aIdle = 0,
 		aRun = 1,
-		aDead,
+		aRoll,
 		aAttack1,
 		aAttack2,
 		aAttack3,

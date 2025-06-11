@@ -24,17 +24,17 @@ Player::Player():
 
 // Solia
 	mesh = new CFbxMesh();
-	mesh->Load("Data/Char/Solia/Solia.mesh");
-	mesh->LoadAnimation(aIdle, "Data/Char/Solia/Solia_Idle.anmx", true);
-	mesh->LoadAnimation(aRun, "Data/Char/Solia/Solia_Running.anmx", true);
-	mesh->LoadAnimation(aDead, "Data/Char/Solia/Solia_Death.anmx", false);
-	mesh->LoadAnimation(aAttack1, "Data/Char/Solia/Solia_Sword.anmx", false);
+	mesh->Load("Data/Char/Night/Night.mesh");
+	mesh->LoadAnimation(aIdle, "Data/Char/Night/Idle.anmx", true);
+	mesh->LoadAnimation(aRun, "Data/Char/Night/Walking.anmx", true);
+	mesh->LoadAnimation(aRoll, "Data/Char/Night/Roll.anmx", false);
+	mesh->LoadAnimation(aAttack1, "Data/Char/Night/AttackLight.anmx", false);
 	swordObj = ObjectManager::FindGameObject<WeaponManager>()->Spawn<WeaponSword>(WeaponBase::ePC);	  // 剣の発生　　
-	swordObj->SetWeaponSword("Sword", 0, 13, VECTOR3(0, 0, 0), VECTOR3(0.0f, 0.01f, -0.02f), VECTOR3(0.0f, 0.0f, -90.0f));  // 剣のメッシュ、手首の位置(0,43は手首) ,長さはメッシュで指定、アジャストの位置と角度
+	swordObj->SetWeaponSword("Sword", 0, 1, VECTOR3(0, 0, 0), VECTOR3(0.0f, 0.01f, -0.02f), VECTOR3(0.0f, 0.0f, -90.0f));  // 剣のメッシュ、手首の位置(0,43は手首) ,長さはメッシュで指定、アジャストの位置と角度
 	swordObj->SetParent(this);
 	gunObj = ObjectManager::FindGameObject<WeaponManager>()->Spawn<WeaponGun>(WeaponBase::ePC);	  // 銃の発生
 	//gunObj->SetWeaponGun("Pistol", 0, 43, VECTOR3(0,0,0), VECTOR3(0.0f, 0.0f, 0.0f),VECTOR3(180.0f, 0.0f, 90.0f));  // 銃のメッシュ　　手首の位置(0,43は手首) ,銃口位置はメッシュで指定、アジャストの位置と角度
-	gunObj->SetWeaponGun("", 0, 13, VECTOR3(0, 0, 0));   // 銃メッシュなし、手首の位置(0,43は手首) ,銃口位置は(0,0,0)
+	gunObj->SetWeaponGun("", 0, 1, VECTOR3(0, 0, 0));   // 銃メッシュなし、手首の位置(0,43は手首) ,銃口位置は(0,0,0)
 	gunObj->SetParent(this);
 
 
@@ -372,7 +372,7 @@ void Player::AddDamage(float damage, VECTOR3 pPos)
 	}
 	else {
 		// ＨＰが０になったとき
-		animator->Play(aDead);
+		//animator->Play(aDead);
 		state = stDead;	 	// 死亡状態にする
 	}
 }
