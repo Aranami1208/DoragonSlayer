@@ -46,6 +46,22 @@ void DisplayInfo::DrawScreen()
 	sprite->Draw(image, DestX, DestY, 0, 0, 213, 31);
 	sprite->Draw(image, DestX + 59, DestY + 6, 59, 32, (DWORD)(144 * h), 6);
 
+
+	//スタミナゲージ
+	if (obj->StaminaGaugeMax != obj->CurrentStamina)
+	{
+		float Height = 100;
+		float Width = 10;
+
+		float x = WINDOW_WIDTH / 2 + 100;
+		float y = WINDOW_HEIGHT/2 + Height/2;
+		
+		float Percent = obj->CurrentStamina / obj->StaminaGaugeMax;
+
+		sprite->DrawLine(x, y - Height, x, y, Width, RGB(80, 80, 80), 1.0f);
+		sprite->DrawLine(x, y-Height + Height * (1-Percent), x, y, Width, RGB(255 * (1-Percent), 255 * (Percent),0, 1.0f));
+	}
+
 	_stprintf_s(str, _T("%d"), obj->Number());
 	GameDevice()->m_pFont->Draw(DestX + 6, DestY + 15, str, 16, RGB(255, 0, 0));
 	_stprintf_s(str, _T("%06d"), obj->HitPoint());

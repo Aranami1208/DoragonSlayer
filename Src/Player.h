@@ -21,6 +21,12 @@ public:
 	void SetMaxHp();
 	bool IsNormal() { if (state == stNormal) return true; else return false; }
 
+	float StaminaGaugeMax = 5000;
+	float StaminaCost = 60;
+	float CurrentStamina;
+	float StaminaCoolTime = 60;
+	float StaminaCoolCount = 0;
+
 	
 private:
 

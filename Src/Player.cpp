@@ -55,6 +55,7 @@ Player::Player():
 	hitPoint = MaxHitPoint;
 	flashTimer = 0;
 	tag = "";
+	CurrentStamina = StaminaGaugeMax;
 
 
 	velocity = VECTOR3(0,0,0);
@@ -125,7 +126,7 @@ void Player::Update()
 	ImGui::End();
 	*/
 
-	/*
+	
 	// Enemyにめり込まないようにする
 	std::list<EnemyBase*> enemys = ObjectManager::FindGameObjects<EnemyBase>();
 	for (EnemyBase* &enm : enemys) {
@@ -135,7 +136,7 @@ void Player::Update()
 			transform.position += push;
 		}
 	}
-	*/
+	
 
  	// マップとの接触判定と自然落下処理
 	transform.position.y += speedY;		 // 自然落下速度を加える
@@ -168,36 +169,46 @@ void Player::updateNormalWalk()
 {
 	//ルート２(ナナメ移動用)
 	float root2 = 1/ sqrtf(2.0f);
+	VECTOR3 Input(0.0f);
 
-	if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_W) && GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_A)) {
-		//左斜め前
-		move(VECTOR3(-root2, 0, root2));
-	}else if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_W) && GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_D)) {
-		//右斜め前
-		move(VECTOR3(root2, 0, root2));
-	}
-	else if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_S) && GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_D)) {
-		//右斜め後ろ
-		move(VECTOR3(root2, 0, -root2));
-	}else if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_S) && GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_A)) {
-		//左斜め前
-		move(VECTOR3(-root2, 0, -root2));
-	}else if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_W) || GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_UP)) {
+	if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_W) || GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_UP)) {
 		//前進処理
-		move(VECTOR3(0,0,1));
-	} else if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_S) || GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_DOWN)) {
+		Input.z += 1.0f;
+	}
+	if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_S) || GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_DOWN)) {
 		// 後退
-		move(VECTOR3(0, 0, -1));
+		Input.z += -1.0f;
 	}
-	else if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_A) || GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_LEFT)) {
+	if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_A) || GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_LEFT)) {
 		//左に進む
-		move(VECTOR3(-1, 0, 0));
+		Input.x += -1.0f;
 	}
-	else if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_D) || GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_RIGHT)) {
+
+	if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_D) || GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_RIGHT)) {
 		//右に進む
-		move(VECTOR3(1, 0, 0));
+		Input.x += 1.0f;
 	}
-	else {//移動していなければ攻撃を開始
+
+	if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_LSHIFT)) {
+		//走る
+		Input.x *= 1.5f;
+
+		//スタミナ消費
+		CurrentStamina = max(0.0f,CurrentStamina - StaminaCost);
+
+		//ゲージを使い切ったらクールタイムをセット
+		if (CurrentStamina < 0 && StaminaCoolCount == 0.0f)
+		StaminaCoolCount = StaminaCoolTime;
+
+	}
+	else
+	{
+		StaminaCoolCount = max(0.0f, StaminaCoolCount--);
+		if (StaminaCoolCount == 0.0f)
+		CurrentStamina = min(StaminaGaugeMax, CurrentStamina + StaminaCost * 0.5f);
+	}
+
+	if(Input.Length() == 0.0f) {//移動していなければ攻撃を開始
 		if (atcstate == atAttack)
 		{
 			animator->MergePlay(aAttack1);
@@ -207,28 +218,37 @@ void Player::updateNormalWalk()
 		}
 	}
 
+	//斜め入力の時は速度を変える
+	if (Input.x != 0 && Input.z != 0)
+	{
+		Input.x *= root2;
+		Input.z *= root2;
+	}
+
+	move(Input);
+
 	//移動していた場合、キャラクターの向く方向を設定
 	if (velocity.Length() > 0.0f)
 	{
 		targetRotY = atan2f(velocity.x, velocity.z);
-	}
 
-	float RotDiff = targetRotY - transform.rotation.y;
+		float RotDiff = targetRotY - transform.rotation.y;
 
-	//回転方向を最短にするための処理
-	while (RotDiff > XM_PI) RotDiff -= XM_2PI;
-	while (RotDiff < -XM_PI) RotDiff += XM_2PI;
+		//回転方向を最短にするための処理
+		while (RotDiff > XM_PI) RotDiff -= XM_2PI;
+		while (RotDiff < -XM_PI) RotDiff += XM_2PI;
 
-	//1フレームで回転する量
-	float RotationStep = (1.0f / RotationTime) * SceneManager::DeltaTime();
+		//1フレームで回転する量
+		float RotationStep = (1.0f / RotationTime) * SceneManager::DeltaTime();
 
-	if (fabs(RotDiff) < RotationStep)
-	{
-		transform.rotation.y = targetRotY;
-	}
-	else
-	{
-		transform.rotation.y += (RotDiff > 0) ? RotationStep : -RotationStep;
+		if (fabs(RotDiff) < RotationStep)
+		{
+			transform.rotation.y = targetRotY;
+		}
+		else
+		{
+			transform.rotation.y += (RotDiff > 0) ? RotationStep : -RotationStep;
+		}
 	}
 
 
@@ -305,6 +325,9 @@ void Player::updateDead()
 
 void Player::move(VECTOR3 Direction)
 {
+	//移動入力をされていなければ処理しない
+	if (Direction.Length() == 0.0f) return;
+
 	VECTOR3 vec;
 
 	// ルートボーンアニメーションを行うかどうかルートアニメーションタイプを確認する
@@ -357,6 +380,8 @@ void Player::AddDamage(float damage, VECTOR3 pPos)
 void Player::DrawScreen()
 {
 	Object3D::DrawScreen(); // 継承元の描画関数を呼ぶ
+
+
 }
 
 

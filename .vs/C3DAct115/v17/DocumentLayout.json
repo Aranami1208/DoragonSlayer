@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\DisplayInfo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\DisplayInfo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyAndroid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\EnemyAndroid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponFireBall2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -171,7 +175,7 @@
       "RelativeMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|solutionrelative:Src\\EnemyGolem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C277B78C-CCEF-4617-A5A8-77FA17C26BBB}|C3DAct115.vcxproj|C:\\PROGRAM FILES (X86)\\WINDOWS KITS\\10\\INCLUDE\\10.0.22621.0\\SHARED\\WINDEF.H||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared\\windef.h||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -181,11 +185,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 171,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "MapDungeon.txt",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Data\\Script\\MapDungeon.txt",
               "RelativeDocumentMoniker": "Data\\Script\\MapDungeon.txt",
@@ -202,6 +206,10 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
@@ -214,7 +222,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "DisplayInfo.cpp",
+              "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\DisplayInfo.cpp",
+              "RelativeDocumentMoniker": "Src\\DisplayInfo.cpp",
+              "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\DisplayInfo.cpp",
+              "RelativeToolTip": "Src\\DisplayInfo.cpp",
+              "ViewState": "AgIAACAAAAAAAAAAAAAUwDoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-11T01:30:47.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "EnemyBd.cpp",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyBd.cpp",
               "RelativeDocumentMoniker": "Src\\EnemyBd.cpp",
@@ -222,12 +243,11 @@
               "RelativeToolTip": "Src\\EnemyBd.cpp",
               "ViewState": "AgIAAB8BAAAAAAAAAAAUwC0BAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T03:07:42.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T03:07:42.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "windef.h",
               "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared\\windef.h",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared\\windef.h",
@@ -235,12 +255,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared\\windef.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T00:57:29.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T00:57:29.245Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "MyMath.h",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\MyMath.h",
               "RelativeDocumentMoniker": "Src\\MyMath.h",
@@ -248,12 +267,11 @@
               "RelativeToolTip": "Src\\MyMath.h",
               "ViewState": "AgIAAGQAAAAAAAAAAAASwG8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T00:36:14.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T00:36:14.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Camera.h",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Camera.h",
               "RelativeDocumentMoniker": "Src\\Camera.h",
@@ -265,20 +283,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Camera.cpp",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Camera.cpp",
               "RelativeDocumentMoniker": "Src\\Camera.cpp",
               "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Camera.cpp",
               "RelativeToolTip": "Src\\Camera.cpp",
-              "ViewState": "AgIAACMAAAAAAAAAAAAUwCAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAUwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-06T02:42:40.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "FbxMesh.cpp",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\FbxMesh.cpp",
               "RelativeDocumentMoniker": "Src\\FbxMesh.cpp",
@@ -290,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Displace.h",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Displace.h",
               "RelativeDocumentMoniker": "Src\\Displace.h",
@@ -302,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "EnemyAndroid.cpp",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyAndroid.cpp",
               "RelativeDocumentMoniker": "Src\\EnemyAndroid.cpp",
@@ -310,12 +328,11 @@
               "RelativeToolTip": "Src\\EnemyAndroid.cpp",
               "ViewState": "AgIAAAEBAAAAAAAAAAAUwAkBAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-02T01:55:23.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T01:55:23.217Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "EnemyAndroid.h",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyAndroid.h",
               "RelativeDocumentMoniker": "Src\\EnemyAndroid.h",
@@ -323,12 +340,11 @@
               "RelativeToolTip": "Src\\EnemyAndroid.h",
               "ViewState": "AgIAACIAAAAAAAAAAAAUwCsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-02T01:50:39.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T01:50:39.234Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "EventManager.cpp",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EventManager.cpp",
               "RelativeDocumentMoniker": "Src\\EventManager.cpp",
@@ -336,12 +352,11 @@
               "RelativeToolTip": "Src\\EventManager.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-01T00:11:35.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T00:11:35.718Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "WeaponBase.h",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponBase.h",
               "RelativeDocumentMoniker": "Src\\WeaponBase.h",
@@ -353,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "WeaponFireBall2.cpp",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponFireBall2.cpp",
               "RelativeDocumentMoniker": "Src\\WeaponFireBall2.cpp",
@@ -361,8 +376,7 @@
               "RelativeToolTip": "Src\\WeaponFireBall2.cpp",
               "ViewState": "AgIAADQAAAAAAAAAAAAiwCAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-24T06:28:15.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T06:28:15.955Z"
             },
             {
               "$type": "Document",
@@ -372,27 +386,27 @@
               "RelativeDocumentMoniker": "Src\\Player.cpp",
               "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Player.cpp",
               "RelativeToolTip": "Src\\Player.cpp",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAAAKkAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAALoAAAAAAAAAAAAUwNUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-23T05:20:51.544Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Player.h",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Player.h",
               "RelativeDocumentMoniker": "Src\\Player.h",
               "ToolTip": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Player.h",
               "RelativeToolTip": "Src\\Player.h",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwBsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-23T06:14:06.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "EffectManager.cpp",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EffectManager.cpp",
               "RelativeDocumentMoniker": "Src\\EffectManager.cpp",
@@ -400,12 +414,11 @@
               "RelativeToolTip": "Src\\EffectManager.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-25T01:36:33.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T01:36:33.243Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "EnemyManager.h",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyManager.h",
               "RelativeDocumentMoniker": "Src\\EnemyManager.h",
@@ -413,12 +426,11 @@
               "RelativeToolTip": "Src\\EnemyManager.h",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-24T23:56:44.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T23:56:44.609Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "WeaponManager.cpp",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponManager.cpp",
               "RelativeDocumentMoniker": "Src\\WeaponManager.cpp",
@@ -430,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "MapStage.txt",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Data\\Script\\MapStage.txt",
               "RelativeDocumentMoniker": "Data\\Script\\MapStage.txt",
@@ -442,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "WeaponFireBall.cpp",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponFireBall.cpp",
               "RelativeDocumentMoniker": "Src\\WeaponFireBall.cpp",
@@ -454,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "EnemyManager.cpp",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyManager.cpp",
               "RelativeDocumentMoniker": "Src\\EnemyManager.cpp",
@@ -466,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "WeaponGun.cpp",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponGun.cpp",
               "RelativeDocumentMoniker": "Src\\WeaponGun.cpp",
@@ -478,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "WeaponSword.cpp",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponSword.cpp",
               "RelativeDocumentMoniker": "Src\\WeaponSword.cpp",
@@ -490,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "SceneFactory.cpp",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\SceneFactory.cpp",
               "RelativeDocumentMoniker": "Src\\SceneFactory.cpp",
@@ -502,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "MapField.txt",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Data\\Script\\MapField.txt",
               "RelativeDocumentMoniker": "Data\\Script\\MapField.txt",
@@ -514,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "MapPractice.txt",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Data\\Script\\MapPractice.txt",
               "RelativeDocumentMoniker": "Data\\Script\\MapPractice.txt",
@@ -526,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "WeaponGun.h",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponGun.h",
               "RelativeDocumentMoniker": "Src\\WeaponGun.h",
@@ -538,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "WeaponFlamethrower.cpp",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponFlamethrower.cpp",
               "RelativeDocumentMoniker": "Src\\WeaponFlamethrower.cpp",
@@ -550,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "WeaponSword.h",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponSword.h",
               "RelativeDocumentMoniker": "Src\\WeaponSword.h",
@@ -562,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "EventBase.cpp",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EventBase.cpp",
               "RelativeDocumentMoniker": "Src\\EventBase.cpp",
@@ -574,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Object3D.CPP",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Object3D.CPP",
               "RelativeDocumentMoniker": "Src\\Object3D.CPP",
@@ -586,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "PlayScene.cpp",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\PlayScene.cpp",
               "RelativeDocumentMoniker": "Src\\PlayScene.cpp",
@@ -598,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ShadowControl.cpp",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\ShadowControl.cpp",
               "RelativeDocumentMoniker": "Src\\ShadowControl.cpp",
@@ -606,12 +618,11 @@
               "RelativeToolTip": "Src\\ShadowControl.cpp",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAADMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-27T08:20:05.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T08:20:05.028Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "EnemyBase.h",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyBase.h",
               "RelativeDocumentMoniker": "Src\\EnemyBase.h",
@@ -623,7 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Collision.h",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\Collision.h",
               "RelativeDocumentMoniker": "Src\\Collision.h",
@@ -635,7 +646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "MapManager.h",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\MapManager.h",
               "RelativeDocumentMoniker": "Src\\MapManager.h",
@@ -647,7 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "MapManager.cpp",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\MapManager.cpp",
               "RelativeDocumentMoniker": "Src\\MapManager.cpp",
@@ -659,7 +670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "WeaponManager.h",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\WeaponManager.h",
               "RelativeDocumentMoniker": "Src\\WeaponManager.h",
@@ -671,7 +682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "EnemyBase.cpp",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyBase.cpp",
               "RelativeDocumentMoniker": "Src\\EnemyBase.cpp",
@@ -683,7 +694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "ResultScore.cpp",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\ResultScore.cpp",
               "RelativeDocumentMoniker": "Src\\ResultScore.cpp",
@@ -695,7 +706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "EnemyGolem.h",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyGolem.h",
               "RelativeDocumentMoniker": "Src\\EnemyGolem.h",
@@ -707,7 +718,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "EnemyBd.h",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EnemyBd.h",
               "RelativeDocumentMoniker": "Src\\EnemyBd.h",
@@ -719,7 +730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "EffectManager.h",
               "DocumentMoniker": "C:\\Users\\A23002\\Desktop\\DragonSlayer\\Src\\EffectManager.h",
               "RelativeDocumentMoniker": "Src\\EffectManager.h",
