@@ -40,6 +40,8 @@ private:
 
 	int FireTimer = 0;
 	int FireInterval = 30;
+	int FireNum = 3;
+	int FireCount = 0;
 
 	VECTOR3 TargetPos = VECTOR3(0,-5000,0);
 };

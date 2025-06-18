@@ -139,12 +139,16 @@ void EnemyAndroid::makeBehaviour()
 	auto* node1 = rootNode->AddChild<BehaviourSelector>();
 	auto* node2 = node1->AddChild<BehaviourSequence>();
 	node2->AddChild<BehaviourAction>(this, actionIsReach);
-	auto* node3 = node2->AddChild<BehaviourSelector>();
-	node3->AddChild<BehaviourAction>(this, actionReach);
-	node3->AddChild<BehaviourAction>(this, actionAttackNeedleFire);
+	auto* node3 = node2->AddChild<BehaviourSequence>();
 	auto* node4 = node1->AddChild<BehaviourSelector>();
 	node4->AddChild<BehaviourAction>(this, actionIdle);
 	node4->AddChild<BehaviourAction>(this, actionWalk);
+	auto* node5 = node3->AddChild<BehaviourSelector>();
+	node5->AddChild<BehaviourAction>(this, actionReach);
+	node5->AddChild<BehaviourAction>(this, actionAttackSword);
+	node3->AddChild<BehaviourAction>(this, actionAttackNeedleFire);
+
+
 }
 
 
@@ -268,8 +272,9 @@ BehaviourBase::BtState EnemyAndroid::actionAttackNeedleFire(Object3D* objIn)
 		ObjectManager::FindGameObject<WeaponManager>()->SpawnMany<WeaponFireBall2>(my->Position(), targetIn, WeaponBase::eENM);
 	}
 
-	if (my->FireTimer % my->FireInterval == 0)
+	if (my->FireTimer % my->FireInterval == 0 && my->FireCount < my->FireNum)
 	{
+		my->FireCount++;
 		ObjectManager::FindGameObject<WeaponManager>()->SpawnMany<WeaponFireBall2>(startIn, targetIn, WeaponBase::eENM);
 		my->TargetPos = my->targetPlayer->Position();
 	}
@@ -278,6 +283,7 @@ BehaviourBase::BtState EnemyAndroid::actionAttackNeedleFire(Object3D* objIn)
 	{
 		my->TargetPos = VECTOR3(-5000);
 		my->FireTimer = 0;
+		my->FireCount = 0;
 		my->animator->Play(aRun);
 		my->swordObj->SetActive(false);
 		return BehaviourBase::bsTrue;  // 攻撃アニメーションが正常に終了したときはbsTrue 

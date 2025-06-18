@@ -30,11 +30,11 @@ Player::Player():
 	mesh->LoadAnimation(aRoll, "Data/Char/Night/Roll.anmx", false);
 	mesh->LoadAnimation(aAttack1, "Data/Char/Night/AttackLight.anmx", false);
 	swordObj = ObjectManager::FindGameObject<WeaponManager>()->Spawn<WeaponSword>(WeaponBase::ePC);	  // 剣の発生　　
-	swordObj->SetWeaponSword("Sword", 0, 1, VECTOR3(0, 0, 0), VECTOR3(0.0f, 0.01f, -0.02f), VECTOR3(0.0f, 0.0f, -90.0f));  // 剣のメッシュ、手首の位置(0,43は手首) ,長さはメッシュで指定、アジャストの位置と角度
+	swordObj->SetWeaponSword("Sword",4, 0, VECTOR3(0, 0, 0), VECTOR3(0.0f, 0.01f, -0.02f), VECTOR3(0.0f, 0.0f, -90.0f));  // 剣のメッシュ、手首の位置(0,43は手首) ,長さはメッシュで指定、アジャストの位置と角度
 	swordObj->SetParent(this);
 	gunObj = ObjectManager::FindGameObject<WeaponManager>()->Spawn<WeaponGun>(WeaponBase::ePC);	  // 銃の発生
 	//gunObj->SetWeaponGun("Pistol", 0, 43, VECTOR3(0,0,0), VECTOR3(0.0f, 0.0f, 0.0f),VECTOR3(180.0f, 0.0f, 90.0f));  // 銃のメッシュ　　手首の位置(0,43は手首) ,銃口位置はメッシュで指定、アジャストの位置と角度
-	gunObj->SetWeaponGun("", 0, 1, VECTOR3(0, 0, 0));   // 銃メッシュなし、手首の位置(0,43は手首) ,銃口位置は(0,0,0)
+	gunObj->SetWeaponGun("", 0, 0, VECTOR3(0, 0, 0));   // 銃メッシュなし、手首の位置(0,43は手首) ,銃口位置は(0,0,0)
 	gunObj->SetParent(this);
 
 
@@ -126,7 +126,6 @@ void Player::Update()
 	ImGui::End();
 	*/
 
-	
 	// Enemyにめり込まないようにする
 	std::list<EnemyBase*> enemys = ObjectManager::FindGameObjects<EnemyBase>();
 	for (EnemyBase* &enm : enemys) {
@@ -189,15 +188,27 @@ void Player::updateNormalWalk()
 		Input.x += 1.0f;
 	}
 
-	if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_LSHIFT)) {
+	if (GameDevice()->m_pDI->CheckKey(KD_TRG, DIK_LSHIFT))
+	{
+		float RollCost = StaminaCost * 5;
+		if (CurrentStamina >= RollCost)
+		{
+			Input *= 1.5f;
+			animator->MergePlay(aRoll);
+			//スタミナ消費
+			CurrentStamina = max(0.0f, CurrentStamina - RollCost);
+		}
+	}
+	else if (GameDevice()->m_pDI->CheckKey(KD_DAT, DIK_LSHIFT)) {
+		if(CurrentStamina > 0)
 		//走る
-		Input.x *= 1.5f;
+		Input *= 1.5f;
 
 		//スタミナ消費
 		CurrentStamina = max(0.0f,CurrentStamina - StaminaCost);
 
-		//ゲージを使い切ったらクールタイムをセット
-		if (CurrentStamina < 0 && StaminaCoolCount == 0.0f)
+		//スタミナ回復クールタイムをセット
+		//if (CurrentStamina <= 0 && StaminaCoolCount == 0.0f)
 		StaminaCoolCount = StaminaCoolTime;
 
 	}
@@ -212,6 +223,10 @@ void Player::updateNormalWalk()
 		if (atcstate == atAttack)
 		{
 			animator->MergePlay(aAttack1);
+		}
+		if (animator->PlayingID() == aRoll && !animator->Finished())
+		{
+			animator->MergePlay(aRoll);
 		}
 		else {
 			animator->MergePlay(aIdle);
@@ -301,6 +316,8 @@ void Player::updateNormalAttack()
 
 void Player::updateDamage()
 {
+	//ローリング中はダメージ受けない
+	if (animator->PlayingID() == aRoll)return;
 	state = stFlash;
 	flashTimer = MaxFlashTime;
 }
@@ -351,6 +368,10 @@ void Player::move(VECTOR3 Direction)
 	{
 		animator->MergePlay(aAttack1);
 	}
+	else if (animator->PlayingID() == aRoll && !animator->Finished())
+	{
+		//animator->MergePlay(aRoll);
+	}
 	else {
 		animator->MergePlay(aRun);
 	}
@@ -358,7 +379,11 @@ void Player::move(VECTOR3 Direction)
 
 void Player::AddDamage(float damage, VECTOR3 pPos)
 {
-	if (state != stNormal)	  return;  	  // 平常状態以外は当たり判定はなし（無敵状態）
+	if (state != stNormal) 
+	{
+		state = stNormal;
+		return;
+	}  	  // 平常状態以外は当たり判定はなし（無敵状態）
 
 	hitPoint -= damage;
 	if (hitPoint > 0) {
