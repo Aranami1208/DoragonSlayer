@@ -5,12 +5,12 @@ Player           0,0,-50,  0
 //	ステージマップ　MapStage   x, y, z, Y軸回転角度, タグ名, マップメッシュ名, コリジョンメッシュ名（コリジョンないときは省略）, ディスプレイスメントマッピングDisplace
 MapStage         0,0,0,    0,          ,  Data/Map/MapTkr/map50Field2.mesh,  Data/Map/MapTkr/map50Field2.mesh
 //MapStage         0,0,0,    0,          ,  Data/Map/MapClsc/map40.mesh,   Data/Map/MapClsc/map40_CHK.mesh
-MapStage      -150,0,80, 0,  TagDoor1,  Data/Map/MapItem/DOOR1.mesh,  Data/Map/MapItem/DOOR1.mesh
-MapStage      40,0,-40, 90,  TagDoor2,  Data/Map/MapItem/DOOR1.mesh,  Data/Map/MapItem/DOOR1.mesh
+//MapStage      -150,0,80, 0,  TagDoor1,  Data/Map/MapItem/DOOR1.mesh,  Data/Map/MapItem/DOOR1.mesh
+//MapStage      40,0,-40, 90,  TagDoor2,  Data/Map/MapItem/DOOR1.mesh,  Data/Map/MapItem/DOOR1.mesh
 
 // イベントチェンジスクリプト  EventChangeScript      タグ名, チェンジ先のスクリプトファイル名, 1回きりOnceで削除か, EnterKey必要か
-EventChangeScript  TagDoor1,  Data/Script/MapDungeon.txt
-EventChangeScript  TagDoor2,  Data/Script/MapDungeon.txt
+//EventChangeScript  TagDoor1,  Data/Script/MapDungeon.txt
+//EventChangeScript  TagDoor2,  Data/Script/MapDungeon.txt
 
 
 //	樹や草などの透明色のあるマップ　MapTree   x, y, z, Y軸回転角度, タグ名, マップメッシュ名, コリジョンメッシュ名（コリジョンないときは省略）, ディスプレイスメントマッピングDisplace

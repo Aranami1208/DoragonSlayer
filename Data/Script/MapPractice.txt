@@ -20,7 +20,7 @@ MapStage       0,0,200,    0,          , Data/Map/MapTkr/map50GBDN.mesh,  Data/M
 
 
 // ドア・ステージマップ　MapStage   x, y, z, Y軸回転角度, タグ名, マップメッシュ名, コリジョンメッシュ名（コリジョンないときは省略）,ディスプレイスメントマッピング
-MapStage       20,0,20,  0,  TagDoor1, Data/Map/MapItem/DOOR1.mesh,    Data/Map/MapItem/DOOR1.mesh 
+//MapStage       20,0,20,  0,  TagDoor1, Data/Map/MapItem/DOOR1.mesh,    Data/Map/MapItem/DOOR1.mesh 
 // イベントチェンジスクリプト  EventChangeScript      タグ名, チェンジ先のスクリプトファイル名, 1回きりOnceで削除か, EnterKey必要か
 EventChangeScript   TagDoor1, Data/Script/MapStage.txt
 
