@@ -30,7 +30,7 @@ Player::Player():
 	mesh->LoadAnimation(aRoll, "Data/Char/Night/Roll.anmx", false);
 	mesh->LoadAnimation(aAttack1, "Data/Char/Night/AttackLight.anmx", false);
 	swordObj = ObjectManager::FindGameObject<WeaponManager>()->Spawn<WeaponSword>(WeaponBase::ePC);	  // 剣の発生　　
-	swordObj->SetWeaponSword("Sword",4, 0, VECTOR3(0, 0, 0), VECTOR3(0.0f, 0.01f, -0.02f), VECTOR3(0.0f, 0.0f, -90.0f));  // 剣のメッシュ、手首の位置(0,43は手首) ,長さはメッシュで指定、アジャストの位置と角度
+	swordObj->SetWeaponSword("Sword",0, 0, VECTOR3(0, 0, 0), VECTOR3(0.0f, 0.01f, -0.02f), VECTOR3(0.0f, 0.0f, -90.0f));  // 剣のメッシュ、手首の位置(0,43は手首) ,長さはメッシュで指定、アジャストの位置と角度
 	swordObj->SetParent(this);
 	gunObj = ObjectManager::FindGameObject<WeaponManager>()->Spawn<WeaponGun>(WeaponBase::ePC);	  // 銃の発生
 	//gunObj->SetWeaponGun("Pistol", 0, 43, VECTOR3(0,0,0), VECTOR3(0.0f, 0.0f, 0.0f),VECTOR3(180.0f, 0.0f, 90.0f));  // 銃のメッシュ　　手首の位置(0,43は手首) ,銃口位置はメッシュで指定、アジャストの位置と角度
@@ -190,7 +190,7 @@ void Player::updateNormalWalk()
 
 	if (GameDevice()->m_pDI->CheckKey(KD_TRG, DIK_LSHIFT))
 	{
-		float RollCost = StaminaCost * 5;
+		float RollCost = StaminaCost * 50;
 		if (CurrentStamina >= RollCost)
 		{
 			Input *= 1.5f;
@@ -214,9 +214,11 @@ void Player::updateNormalWalk()
 	}
 	else
 	{
+		float StaminaHealSpeedRate = 1.5f;
+		//スタミナ回復処理
 		StaminaCoolCount = max(0.0f, StaminaCoolCount--);
 		if (StaminaCoolCount == 0.0f)
-		CurrentStamina = min(StaminaGaugeMax, CurrentStamina + StaminaCost * 0.5f);
+			CurrentStamina = min(StaminaGaugeMax, CurrentStamina + (StaminaCost * StaminaHealSpeedRate));
 	}
 
 	if(Input.Length() == 0.0f) {//移動していなければ攻撃を開始
@@ -317,14 +319,18 @@ void Player::updateNormalAttack()
 void Player::updateDamage()
 {
 	//ローリング中はダメージ受けない
-	if (animator->PlayingID() == aRoll)return;
+	if (animator->PlayingID() == aRoll)
+	{
+		state = stNormal;
+		return;
+	}
 	state = stFlash;
 	flashTimer = MaxFlashTime;
 }
 
 void Player::updateDead()
 {
-	if (animator->Finished())
+	//if (animator->Finished())
 	{
 		if (--number <= 0) // ＰＣを一人減らす
 		{

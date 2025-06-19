@@ -59,7 +59,7 @@ void DisplayInfo::DrawScreen()
 		float Percent = obj->CurrentStamina / obj->StaminaGaugeMax;
 
 		sprite->DrawLine(x, y - Height, x, y, Width, RGB(80, 80, 80), 1.0f);
-		sprite->DrawLine(x, y-Height + Height * (1-Percent), x, y, Width, RGB(255 * (1-Percent), 255 * (Percent),0, 1.0f));
+		sprite->DrawLine(x, y-Height + Height * (1-Percent), x, y, Width, RGB(255 * (1-Percent), 255 * (Percent),0));
 	}
 
 	_stprintf_s(str, _T("%d"), obj->Number());

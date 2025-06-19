@@ -22,11 +22,15 @@ public:
 	bool IsNormal() { if (state == stNormal) return true; else return false; }
 
 	float StaminaGaugeMax = 5000;
-	float StaminaCost = 60;
+	float StaminaCost = 15;
 	float CurrentStamina;
-	float StaminaCoolTime = 60;
+	float StaminaCoolTime = 30;
 	float StaminaCoolCount = 0;
 
+	//回避有効フレーム
+	float EffectiveEvationFrame  = 5 ;
+	//現在のフレーム
+	float CurrentEvationFrame;
 	
 private:
 
